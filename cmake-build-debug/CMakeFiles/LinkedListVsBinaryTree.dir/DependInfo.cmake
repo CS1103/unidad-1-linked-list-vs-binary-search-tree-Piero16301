@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.cpp" "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/BinarySearchTree.cpp.o"
-  "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.cpp" "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/LinkedList.cpp.o"
-  "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.cpp" "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/Location.cpp.o"
-  "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/main.cpp" "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/main.cpp.o"
+  "C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/BinarySearchTree.cpp" "C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/BinarySearchTree.cpp.obj"
+  "C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/LinkedList.cpp" "C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/LinkedList.cpp.obj"
+  "C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/Location.cpp" "C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/Location.cpp.obj"
+  "C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/main.cpp" "C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,19 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.h
-Location.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/BinarySearchTree.cpp
+BinarySearchTree.h
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/BinarySearchTree.h
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.h
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/BinarySearchTree.h
 Location.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/Location.h
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/LinkedList.h
+Location.h
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/Location.h
+
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/Location.h
 string
 -
+iostream
+-
+fstream
+-
+sstream
+-
+vector
+-
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/main.cpp
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/main.cpp
 iostream
 -
 sstream
@@ -30,7 +42,7 @@ vector
 fstream
 -
 LinkedList.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.h
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/LinkedList.h
 BinarySearchTree.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.h
+C:/Proyectos/unidad-1-linked-list-vs-binary-search-tree-Piero16301/BinarySearchTree.h
 
