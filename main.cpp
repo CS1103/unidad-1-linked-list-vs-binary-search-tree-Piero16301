@@ -1,7 +1,7 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-
+#include <ctime>
 #include <vector>
 #include <fstream>
 #include "LinkedList.h"
@@ -17,47 +17,45 @@ int main() {
 
     // Declarando variables
     LinkedList ll;
-    //BinarySearchTree bst;
+    BinarySearchTree bst;
     std::vector<int> vsearch;
 
     // Grabar Datos del archivo "Locations.csv" en ll
 
-    std::fstream doc(LOCATION_FILE);
-    if (doc.is_open()) {
-        std::string campos[7];
-        std::string fila;
-        std::getline(doc, fila);
-        while (!doc.eof()) {
-            std::getline(doc, fila);
-            std::istringstream stringStream(fila);
-            unsigned int contador = 0;
-            while (std::getline(stringStream, fila, ',')) {
-                campos[contador] = fila;
-                contador++;
-            }
-            Location valor(std::stoi(campos[0]), campos[1], campos[2], std::stod(campos[3]), std::stod(campos[4]), campos[5], campos[6]);
-            ll.add_tail(valor);
-        }
-    }
-    doc.close();
-    ll.print();
+    load_locations(&ll, LOCATION_FILE);
 
     // Grabar Datos del archivo "Locations.csv" en bst
 
+    load_locations(&bst, LOCATION_FILE);
+
     // Leer los datos del archivo "Search.txt" y grabarlos en vsearch
-
-    double avgtime_ll = 0;
-    double avgtime_bst = 0;
-
-    // Utilizar cada item de vsearch para buscar los lugares en ll y bsd
-    // Calcular los tiempos promedios en cada caso
-    for (const auto& id: vsearch) {
-
-        // Buscar en ll
-
-        // Buscar en bsd
+    std::ifstream search(SEARCH_FILE);
+    if (search.is_open()) {
+        std::string searching;
+        while (!search.eof()) {
+            if (!search.eof()) {
+                std::getline(search, searching);
+                vsearch.push_back(stoi(searching));
+            }
+        }
     }
+    search.close();
 
+    double start_ll = clock();
+    for (const auto &nueva: vsearch) {
+        ll.search(nueva);
+    }
+    double end_ll = clock();
+
+    std::cout << "Tiempo de busqueda en lista enlazada: " << (end_ll - start_ll) << " ms" << '\n';
+
+    double start_bst = clock();
+    for (const auto &nueva: vsearch) {
+        bst.search(nueva);
+    }
+    double end_bst = clock();
+
+    std::cout << "Tiempo de busqueda en Arbol Binario: " << (end_bst - start_bst) << " ms" << '\n';
 
     return 0;
 }

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
-project(LinkedListVsBinarySearchTree)
+project(BinarySearch)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(LinkedListVsBinaryTree main.cpp LinkedList.cpp LinkedList.h BinarySearchTree.cpp BinarySearchTree.h Location.cpp Location.h)
+add_executable(BinarySearch main.cpp BinarySearchTree.h BinarySearchTree.cpp LinkedList.h LinkedList.cpp Location.h Location.cpp)
