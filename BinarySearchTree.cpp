@@ -1,6 +1,6 @@
 #include "BinarySearchTree.h"
 
-UTEC::Nodo::Nodo(const UTEC::Location &): data{data}, right{nullptr}, left{nullptr} {} //Inicializa el nodo en nullptr
+UTEC::Nodo::Nodo(const UTEC::Location &data): data{data}, right{nullptr}, left{nullptr} {} //Inicializa el nodo en nullptr
 
 UTEC::BinarySearchTree::BinarySearchTree(): raiz{nullptr} {} //Constructor, inicializa la raiz
 
